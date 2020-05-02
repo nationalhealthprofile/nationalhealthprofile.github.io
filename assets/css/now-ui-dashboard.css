@@ -1,29 +1,3 @@
-/*!
-
- =========================================================
- * Now UI Dashboard - v1.0.1
- =========================================================
-
- * Product Page: http://www.creative-tim.com/product/now-ui-dashboard
- * Copyright 2017 Creative Tim (http://www.creative-tim.com)
- * Licensed under MIT (https://github.com/creativetimofficial/now-ui-dashboard/blob/master/LICENSE.md)
-
-
- * Designed by www.invisionapp.com Coded by www.creative-tim.com
-
- =========================================================
-
- * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
- */
-/*     brand Colors              */
-/*      light colors         */
-/*!
-Animate.css - http://daneden.me/animate
-Licensed under the MIT license - http://opensource.org/licenses/MIT
-
-Copyright (c) 2015 Daniel Eden
-*/
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -2845,7 +2819,7 @@ Created using IcoMoon - icomoon.io
   .panel-header .header .title {
     color: #FFFFFF; }
   .panel-header .header .category {
-    max-width: 600px;
+    max-width: 800px;
     color: rgba(255, 255, 255, 0.5);
     margin: 0 auto;
     font-size: 13px; }
@@ -3566,5 +3540,15 @@ Created using IcoMoon - icomoon.io
       font-size: 48px; }
   .page-header .container h6.category-absolute {
     width: 90%; } }
-
+	
+.zoom-within-container {
+  height: 400px; /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+.zoom-within-container img {
+  transition: transform .5s ease;
+}
+.zoom-within-container:hover img {
+  transform: scale(1.5);
+}
 /*# sourceMappingURL=now-ui-dashboard.css.map */
